@@ -175,7 +175,7 @@ md C:\lunarconfig\resources\default2
 powershell Invoke-WebRequest "https://cdn.discordapp.com/attachments/896509630434398218/938951687597600768/mods.json" -OutFile "C:\lunarconfig\resources\default2\mods.json"
 move C:\lunarconfig\resources\default2\mods.json C:\Users\%USERNAME%\.lunarclient\settings\game\default
 echo If you would like to see what it looks like https://imgur.com/a/wjq2K7M
-
+echo fucking kill your self
 pause
 cls
 goto menu
