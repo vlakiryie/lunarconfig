@@ -44,11 +44,11 @@ goto MissSpell
 
 :UpdateD
 TITLE Downloading update...
-powershell Invoke-WebRequest "https://github.com/vlakiryie/lunarconfig/releases/download/lunarconfig/lunar.config.updater.bat" -OutFile "C:\Users\%username%\Documents\lunar.config.updater.bat"
+powershell Invoke-WebRequest "https://github.com/vlakiryie/lunarconfig/releases/download/lunarconfig/Lunarconfig.bat" -OutFile "C:\Users\%username%\Documents\Lunarconfig.bat"
 timeout 2 >nul 2>&1
 start C:\Users\%username%\Documents
 timeout 1 >nul 2>&1
-start C:\Users\%username%\Documents\lunar.config.updater.bat
+start C:\Users\%username%\Documents\Lunarconfig.bat
 goto end
 exit
 
